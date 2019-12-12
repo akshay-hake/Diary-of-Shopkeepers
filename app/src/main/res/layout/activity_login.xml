@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="165dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="56dp"
+        android:text="LOGIN"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="326dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:ems="10"
+        android:background="@drawable/border"
+        android:hint="Enter Email"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="183dp"
+        />
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="327dp"
+        android:layout_height="46dp"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/border"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp"
+        android:background="@android:color/holo_green_light"
+        android:text="LOGIN"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="403dp" />
+
+    <Button
+        android:id="@+id/btncreate"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Create New Account"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+
+</RelativeLayout>

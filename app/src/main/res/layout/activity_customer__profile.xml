@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer_Profile">
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cprof"
+        android:layout_width="154dp"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="23dp"
+        android:src="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <EditText
+        android:id="@+id/cname"
+        style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+        android:layout_width="259dp"
+        android:layout_height="69dp"
+        android:layout_alignStart="@+id/cprof"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="188dp"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:text="Akshay"
+        android:textColor="@android:color/background_dark"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="186dp"
+        android:layout_alignLeft="@+id/cprof" />
+
+    <ImageButton
+        android:id="@+id/buttonupload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cprof"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="65dp"
+        android:layout_height="64dp"
+        android:layout_alignStart="@+id/cprof"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="220dp"
+        app:srcCompat="@android:drawable/sym_action_call"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="319dp"
+        android:layout_alignLeft="@+id/cprof" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="273dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/cprof"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="132dp"
+        app:srcCompat="@drawable/add"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="399dp"
+        android:layout_alignLeft="@+id/cprof" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="281dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignBottom="@+id/imageView2"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/border"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="402dp"
+        android:layout_alignLeft="@+id/editText" />
+
+    <Button
+        android:id="@+id/cdone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_green_light"
+        android:text="Done"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteY="554dp"
+        android:layout_alignParentLeft="true" />
+
+
+
+
+
+
+</RelativeLayout>

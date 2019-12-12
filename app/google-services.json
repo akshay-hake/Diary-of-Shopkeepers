@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "390762057117",
+    "firebase_url": "https://shopkeeper-sdiary.firebaseio.com",
+    "project_id": "shopkeeper-sdiary",
+    "storage_bucket": "shopkeeper-sdiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390762057117:android:4cf2e9207afd184c",
+        "android_client_info": {
+          "package_name": "com.example.shopkeepersdiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390762057117-o84i7va9jsl87as065d6tdabb58pe066.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopkeepersdiary",
+            "certificate_hash": "b23b9eb9c561208c2d34b031232720e7d3831224"
+          }
+        },
+        {
+          "client_id": "390762057117-sen8402mtjr3b5v29snjc28g4arae7m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0u1yTnbJyoiydmN5cOQLFJ5UmkxbqjW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390762057117-sen8402mtjr3b5v29snjc28g4arae7m0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
