@@ -1,9 +1,8 @@
 # Shopkeeper's Diary
+    
+Android application for Shopkeepers
 
-
------Android app for Shopkeepers--------
-
-  Application will help shopkeepers to ==>  
+  Application will help shopkeepers to      
                                  
         1] store all purchases of his customer with current date and time,reason(description).       
         2] calculate remaining amount of each customer to pay.          
